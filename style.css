@@ -160,3 +160,12 @@ body#exercice-3 > main > article > main p{
   }
 }
 
+@media (orientation: portrait) {
+  body#exercice-3 >main > article 
+  {
+    display:grid;
+    grid-template-rows: 1fr 0.1fr;
+  }
+  
+  
+}
